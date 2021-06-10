@@ -1,0 +1,51 @@
+
+.container{
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+  }
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .btn{
+    border-radius: 4px;
+    background: #0467fb;
+    white-space: nowrap;
+    padding: 10px 20px ;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: all 0.3s ease-out;
+    background: rgb(201, 211, 233);
+    background: #1b248a;
+    font-size: 20px;
+    transition: all 0.6s ease-in-out;
+}
+
+.pages{
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 960px){
+    .btn{
+        width: 100%;
+    } 
+}
+
+  

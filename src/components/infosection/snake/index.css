@@ -1,0 +1,75 @@
+
+.snake{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #03a9f4;
+    position:relative;
+    border-radius: 15%;
+    z-index: 1;
+}
+
+.s1{
+    left: -80px;
+    top: 30px;
+}
+.s2{
+    left: -130px;
+    top: 30px;
+}
+.s3{
+    left: -180px;
+    top: 30px;
+}
+.s4{
+    left: -230px;
+    top: 30px;
+}
+.s5{
+    left: -280px;
+    top: 30px;
+}
+
+
+.cube{
+    position: relative;
+    color: rgb(212, 216, 218);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgb(57, 57, 124);
+    border-radius: 50%;
+    text-align: center;
+    z-index: 0;
+    font-size: 1.5rem;
+}
+
+.c1{
+    left: 150px;
+}
+.c2{
+    font-size: 1rem;
+    left: 140px;
+    top: 300px;
+
+}
+.c3  {
+    left: -300px;
+    top: 400px;
+
+}
+.c4  {
+    left: -480px;
+    top: 200px;
+
+}
+.content1{
+    position: relative;
+    top: 10px
+}
+.content2{
+    position: relative;
+    top: 15px
+}
+
+

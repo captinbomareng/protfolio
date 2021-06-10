@@ -1,0 +1,67 @@
+h2{
+    font-size: 11rem;
+    text-align: center;
+}
+h2 span{
+    position:relative;
+    display: inline-flex;
+    color:#03a9f4;
+}
+h2 span:nth-child(odd){
+    color: #414141;
+    line-height: 1em;
+    overflow: hidden;
+    letter-spacing: -1em;
+    transition: all 1s ease-in-out;
+
+}
+h2:hover span:nth-child(odd){
+    letter-spacing: 0;
+}
+
+h2 span:nth-child(2){
+    margin-right: 10px;    
+}
+
+
+h2 span:nth-child(2)::before{
+    margin: -13px;
+    content: '2';
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    font-size: 0.35em;   
+}
+h2 i {
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #777;
+    font-weight: 400;
+    font-style: initial;
+    line-height: 1em;
+    width: 350px;
+}
+h2 i::before{
+    content: 'Oxygen';
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: initial;
+    transition: all 1s ease-in-out;
+}
+
+h2:hover i::before{
+    opacity: 0;
+    letter-spacing: 2em;
+}
+h2 i::after{
+    content: 'Cause Your Company Need To Breath';
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+h2:hover i::after{
+opacity: 1;
+visibility: visible;
+}

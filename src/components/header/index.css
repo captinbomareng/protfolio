@@ -1,0 +1,27 @@
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    background:url(../../pics/main-bg.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center ;
+    height: 91vh;
+}
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-info h1 {
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.typed-text{
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
